@@ -8,7 +8,7 @@ describe 'textmate2' do
   end
 
   it do
-    should contain_package('TextMate').with({
+    should contain_package('TextMate2').with({
       :source   => 'https://github.com/downloads/textmate/textmate/TextMate_r9381.tbz',
       :provider => 'compressed_app'
     })

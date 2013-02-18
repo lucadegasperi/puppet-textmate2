@@ -4,8 +4,8 @@
 #
 #   include textmate2
 class textmate2 {
-  package { 'TextMate2':
-    source   => 'https://api.textmate.org/downloads/beta',
+  package { 'TextMate':
+    source   => 'https://github.com/downloads/textmate/textmate/TextMate_r9381.tbz',
     provider => 'compressed_app'
   }
 }

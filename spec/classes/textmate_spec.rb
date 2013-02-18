@@ -9,7 +9,7 @@ describe 'textmate2' do
 
   it do
     should contain_package('TextMate').with({
-      :source   => 'https://api.textmate.org/downloads/beta',
+      :source   => 'https://github.com/downloads/textmate/textmate/TextMate_r9381.tbz',
       :provider => 'compressed_app'
     })
   end

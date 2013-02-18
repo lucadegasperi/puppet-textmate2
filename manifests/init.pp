@@ -2,9 +2,9 @@
 #
 # Examples
 #
-#   include textmate
+#   include textmate2
 class textmate2 {
-  package { 'TextMate':
+  package { 'TextMate2':
     source   => 'https://api.textmate.org/downloads/beta',
     provider => 'compressed_app'
   }
